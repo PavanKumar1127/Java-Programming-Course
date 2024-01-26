@@ -92,7 +92,23 @@ public static void main(String[] args) {
         if (text instanceof String) {
             System.out.println("Data type of text: String");
         }
+        
+        //Wrapper class example
+        Integer num1 = 100;
+        Integer num2 = 100;
+        Integer num3 = 500;// wrapper class has a memory range from -127 to 128 so the memory where they are allocated will hv different address.
+        Integer num4 = 500;
+        
+        if(num1 == num2) {
+        	System.out.println("num1 == num2");
+        }else {
+        	System.out.println("num1 != num2");
+        }
+        if(num3 == num4) {
+        	System.out.println("num3 == num4");
+        }else {
+        	System.out.println("num3 != num4");
+
+        }
     }
-
-
 }

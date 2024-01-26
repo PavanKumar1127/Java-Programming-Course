@@ -40,5 +40,25 @@ public class Looping {
 	        x++;
 	      }while(x<=10);
 	      //Drawback: Initial Code Execution Even If Condition is False
+	      
+	      //Example for do-while
+//	      Scanner scanner = new Scanner(System.in);
+//	        int userInput;
+//
+//	        do {
+//	            System.out.print("Enter a positive number (enter 0 to exit): ");
+//	            userInput = scanner.nextInt();
+//
+//	            if (userInput > 0) {
+//	                System.out.println("You entered: " + userInput);
+//	            } else if (userInput < 0) {
+//	                System.out.println("Please enter a positive number.");
+//	            } else {
+//	                System.out.println("Exiting the program. Goodbye!");
+//	            }
+//
+//	        } while (userInput != 0);
+//
+//	        scanner.close();
 	}
 }

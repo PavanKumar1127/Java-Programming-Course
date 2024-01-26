@@ -1,4 +1,4 @@
-package dataStructures.searchAlgorithms;
+package dataStructures.searchAlgorithms.sorting;
 
 import java.util.Arrays;
 

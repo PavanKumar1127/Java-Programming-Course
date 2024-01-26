@@ -1,4 +1,4 @@
-package dataStructures.searchAlgorithms;
+package dataStructures.searchAlgorithms.sorting;
 
 import java.util.Arrays;
 
@@ -37,6 +37,8 @@ public class BubbleSort {
 	                    arr[j] = arr[j + 1];
 	                    arr[j + 1] = temp;
 	                    swapped = true;
+	                    System.out.println("Array in operation: " + Arrays.toString(arr));
+
 	                }
 	            }
 

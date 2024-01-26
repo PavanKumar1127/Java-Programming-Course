@@ -3,7 +3,9 @@ package javaLearningBasics;
 /**
  * Java is a versatile language for making computer programs. It's a
  * class-based, object-oriented-programming language designed for having lesser
- * implementation dependencies.
+ * implementation dependencies. 
+ * **it can work on different types of computers and devices without needing
+ * **major changes. This flexibility is because it has "lesser implementation dependencies."
  * 
  * Java is like a versatile superhero language for making computer programs.
  * It's good at many things and can run on different types of devices like
@@ -91,8 +93,8 @@ package javaLearningBasics;
  * When you request a ride on Uber, Java is working in the background to find
  * the nearest driver and calculate the best route.
  * 
- * Java is like the super language that makes the digital world work seamlessly. It's
- * versatile, powerful, and used in a variety of applications that impact our
- * daily lives.
+ * Java is like the super language that makes the digital world work seamlessly.
+ * It's versatile, powerful, and used in a variety of applications that impact
+ * our daily lives.
  *
  */

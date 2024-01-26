@@ -1,4 +1,4 @@
-package dataStructures.searchAlgorithms;
+package dataStructures.searchAlgorithms.sorting;
 
 /**
  * Linear search is a simple algorithm for finding a target element within a

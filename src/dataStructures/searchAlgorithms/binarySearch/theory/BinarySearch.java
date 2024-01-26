@@ -1,4 +1,4 @@
-package dataStructures.searchAlgorithms;
+package dataStructures.searchAlgorithms.binarySearch.theory;
 
 /**
  * Binary search is a more efficient search algorithm to find a target element

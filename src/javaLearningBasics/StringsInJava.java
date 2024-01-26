@@ -1,7 +1,7 @@
 package javaLearningBasics;
 
 /**
- * Strings are the type of objects that can store the character of values and in Java
+ * Strings are the type of objects that can store the character of values in Java
  */
 public class StringsInJava {
 
@@ -17,7 +17,7 @@ public class StringsInJava {
 		System.out.println(str);
 
 
-		System.out.println(str);
+		System.out.println(str.charAt(2));
 		        
 		//There are two ways to create string in Java:
 
@@ -63,24 +63,24 @@ public class StringsInJava {
                            s4.indexOf('a',3));
  
         // Checking equality of Strings
-        Boolean out = "Geeks".equals("geeks");
+        Boolean out = "Example".equals("Example");
         System.out.println("Checking Equality  " + out);
-        out = "Geeks".equals("Geeks");
+        out = "Example".equals("Example");
         System.out.println("Checking Equality  " + out);
  
-        out = "Geeks".equalsIgnoreCase("gEeks ");
+        out = "Example".equalsIgnoreCase("Example ");
         System.out.println("Checking Equality " + out);
  
         //If ASCII difference is zero then the two strings are similar
         int out1 = s1.compareTo(s2);
         System.out.println("the difference between ASCII value is="+out1);
         // Converting cases
-        String word1 = "GeeKyMe";
+        String word1 = "CodeMe";
         System.out.println("Changing to lower Case " +
                             word1.toLowerCase());
  
         // Converting cases
-        String word2 = "GeekyME";
+        String word2 = "CodeME";
         System.out.println("Changing to UPPER Case " +
                             word2.toUpperCase());
  
@@ -93,5 +93,26 @@ public class StringsInJava {
         System.out.println("Original String " + str1);
         String str2 = "feeksforfeeks".replace('f' ,'g') ;
         System.out.println("Replaced f with g -> " + str2);
-	}
+        
+        // when checking for 2 same values use.equals() , 2 different values
+        // when checking if both objects point to same value x use == , 2 different objects
+        
+        // Example 1: Using ==
+        String str11 = "Hello";
+        String str21 = "Hello";
+        String str31 = new String("Hello");
+
+        System.out.println("Using ==:");
+        System.out.println(str11 == str21);  // true (reference comparison)
+        System.out.println(str11 == str31);  // false (different objects)
+
+        // Example 2: Using .equals()
+        System.out.println("\nUsing .equals():");
+        System.out.println(str11.equals(str21));  // true (content comparison)
+        System.out.println(str11.equals(str31));  // true (content comparison)
+
+        // Note: For reference comparison, you can also use the intern() method
+        System.out.println("\nUsing intern():");
+        System.out.println(str11 == str31.intern());  // true (reference comparison after interning)
+    }
 }
