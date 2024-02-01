@@ -6,7 +6,7 @@ import java.util.*;
 //https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
 // can also be done using cycle sort algorithm but not as fast as this approach.
 //optimized solution below
-public class Leetcode_448 {
+public class Leetcode_448MissingNumberInArray {
 
 	public static List<Integer> findDisappearedNumbers(int[] nums) {
         Set<Integer> set = new HashSet<>();

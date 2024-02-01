@@ -5,7 +5,7 @@ import java.util.Arrays;
 //Set Mismatch
 //https://leetcode.com/problems/set-mismatch/description/
 
-public class Leetcode_645 {
+public class Leetcode_645Mismatch {
 
 	 public static int[] findErrorNums(int[] nums) {
 		 int[] res = new int[2];

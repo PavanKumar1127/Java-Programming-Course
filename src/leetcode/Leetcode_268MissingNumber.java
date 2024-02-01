@@ -5,7 +5,7 @@ import java.util.Arrays;
 //Missing Number
 //https://leetcode.com/problems/missing-number/submissions/1107206570/
 //optimized approach with XOR
-public class Leetcode_268 {
+public class Leetcode_268MissingNumber {
 	
 	public static int cycleSort(int[] arr) {
 //		int i = 0;

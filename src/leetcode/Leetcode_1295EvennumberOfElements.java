@@ -2,7 +2,7 @@ package leetcode;
 
 //Find Numbers with Even Number of Digits
 
-public class Leetcode_1295 {
+public class Leetcode_1295EvennumberOfElements {
 	
 	public static void main(String[] args) {
 		int[] nums = {555,901,482,1771};
