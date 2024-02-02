@@ -19,7 +19,7 @@ Expect daily updates with code snippets, explanations, and progress reports. Eac
 - Basic GUI Programming with Swing
 
 ## Learning Resources:
-Throughout the course, I'll be referencing the "Java Programming for Beginners" book by [Author Name]. Feel free to follow along!
+Throughout the course, I'll be referencing the "Java Programming for Beginners" book and Playlists from https://www.youtube.com/@KunalKushwaha and https://www.youtube.com/@TheAdityaVerma . Feel free to follow along!
 
 ## Code Samples and Projects:
 Get ready for hands-on coding! We'll be working on mini-projects to reinforce learning and practical application of Java concepts.
