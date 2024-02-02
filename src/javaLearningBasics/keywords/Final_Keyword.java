@@ -1,4 +1,4 @@
-package javaLearningBasics;
+package javaLearningBasics.keywords;
 
 /**
  * In Java, the final keyword is used to define constants, make variables

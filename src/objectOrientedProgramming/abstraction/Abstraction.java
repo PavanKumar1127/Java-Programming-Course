@@ -1,4 +1,4 @@
-package objectOrientedProgramming;
+package objectOrientedProgramming.abstraction;
 
 /**
  * Abstraction is the concept of hiding the complex reality while exposing only

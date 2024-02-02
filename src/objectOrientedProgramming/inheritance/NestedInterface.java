@@ -1,4 +1,4 @@
-package objectOrientedProgramming;
+package objectOrientedProgramming.inheritance;
 
 public class NestedInterface {
 

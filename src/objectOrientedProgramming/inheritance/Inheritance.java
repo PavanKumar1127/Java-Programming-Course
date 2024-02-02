@@ -1,4 +1,4 @@
-package objectOrientedProgramming;
+package objectOrientedProgramming.inheritance;
 
 /**
  * Inheritance is a way to create a new class that is a modified version of an

@@ -1,4 +1,4 @@
-package javaLearningBasics;
+package javaLearningBasics.keywords;
 public class Example {
     // Constant declaration
     final int MAX_VALUE = 100;

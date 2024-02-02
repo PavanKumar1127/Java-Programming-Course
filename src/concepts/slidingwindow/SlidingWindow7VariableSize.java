@@ -1,4 +1,4 @@
-package concepts.slidingWindow;
+package concepts.slidingwindow;
 
 //Find the longest substring with k unique characters in a given string
 //Java program to find the longest substring with k unique characters in a given string

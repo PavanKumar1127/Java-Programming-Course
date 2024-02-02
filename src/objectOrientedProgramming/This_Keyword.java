@@ -25,7 +25,7 @@ package objectOrientedProgramming;
  * useful tool for working with objects in Java, but it should be used
  * judiciously and only when necessary.
  */
-public class This {
+public class This_Keyword {
 
 }
 

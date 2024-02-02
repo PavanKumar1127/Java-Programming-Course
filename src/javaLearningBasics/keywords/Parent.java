@@ -1,4 +1,4 @@
-package javaLearningBasics;
+package javaLearningBasics.keywords;
 public class Parent {
     // Final method
     final void display() {

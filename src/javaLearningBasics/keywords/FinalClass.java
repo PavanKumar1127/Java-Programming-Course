@@ -1,4 +1,4 @@
-package javaLearningBasics;
+package javaLearningBasics.keywords;
 final class FinalClass {
     // Class implementation
 }

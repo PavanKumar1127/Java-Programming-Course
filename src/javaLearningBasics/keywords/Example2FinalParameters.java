@@ -1,4 +1,4 @@
-package javaLearningBasics;
+package javaLearningBasics.keywords;
 public class Example2FinalParameters {
 	void processData(final int value) {
         // Attempting to modify the final parameter will result in a compilation error
