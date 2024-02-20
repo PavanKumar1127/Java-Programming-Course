@@ -1,4 +1,4 @@
-package javaCollectionsFramework;
+package javaCollectionsFramework.linkedlist;
 
 /**
  * LinkedList is implemented as a doubly-linked list. In a doubly-linked list,

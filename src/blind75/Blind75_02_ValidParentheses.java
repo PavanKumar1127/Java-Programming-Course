@@ -2,7 +2,7 @@ package blind75;
 
 import java.util.HashMap;
 
-public class Blind75_2_ValidParentheses {
+public class Blind75_02_ValidParentheses {
 
 	public static void main(String[] args) {
 		String ques = "[]{}({[]})([)]";

@@ -1,6 +1,6 @@
 package blind75;
 
-public class Blind75_4_BestTimeToBuyAndSellStock {
+public class Blind75_04_BestTimeToBuyAndSellStock {
 
 	public static int maxProfit(int[] prices) {
 

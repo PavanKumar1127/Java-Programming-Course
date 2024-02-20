@@ -1,4 +1,4 @@
-package objectOrientedProgramming.inheritance;
+package objectOrientedProgramming.interfaceAndAbstractClass.interfaces;
 
 
 /**

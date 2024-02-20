@@ -7,6 +7,7 @@ package objectOrientedProgramming;
 public class Polymorphism {
 
 	public static void main(String[] args) {
+
         // Polymorphism through method overriding
         VehicleClass car = new Car("Blue", 4, true);
         car.start(); // This will call the start() method in the Car class

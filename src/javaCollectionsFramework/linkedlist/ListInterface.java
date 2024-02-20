@@ -1,4 +1,4 @@
-package javaCollectionsFramework;
+package javaCollectionsFramework.linkedlist;
 
 import java.util.*;
 

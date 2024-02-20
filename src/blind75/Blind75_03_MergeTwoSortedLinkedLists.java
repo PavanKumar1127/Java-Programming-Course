@@ -9,7 +9,7 @@ class ListNode {
     }
 }
 
-public class Blind75_3_MergeTwoSortedLinkedLists {
+public class Blind75_03_MergeTwoSortedLinkedLists {
 	
 
 

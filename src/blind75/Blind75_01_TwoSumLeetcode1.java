@@ -2,7 +2,7 @@ package blind75;
 
 import java.util.HashMap;
 
-public class Blind75_1_TwoSumLeetcode1 {
+public class Blind75_01_TwoSumLeetcode1 {
 
 	public static void main(String[] args) {
 		int[] num = { 3, 2, 4 };

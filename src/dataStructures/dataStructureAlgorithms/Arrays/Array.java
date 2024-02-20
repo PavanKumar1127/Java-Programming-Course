@@ -11,8 +11,8 @@ public class Array {
 	//int[] roll_Number1 = {3,4,5,"name",7,8};
 	
 	//breakdown of the process
-	int[] ros; // Decleration of array, ros is getting defined in stack
-	ros = new int[4]; // initiallization: actually here object is getting created in the memory(heap)
+	//int[] ros; // Decleration of array, ros is getting defined in stack
+	//ros = new int[4]; // initiallization: actually here object is getting created in the memory(heap)
 
 }
 

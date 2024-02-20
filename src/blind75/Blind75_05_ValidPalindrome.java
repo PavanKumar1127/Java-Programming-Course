@@ -1,6 +1,6 @@
 package blind75;
 
-public class Blind75_5_ValidPalindrome {
+public class Blind75_05_ValidPalindrome {
 
 	
 	private static boolean isPalindrome(String s) {
