@@ -56,7 +56,7 @@ public class Blind75_03_MergeTwoSortedLinkedLists {
 	}
 	
 	public static void main(String[] args) {
-		Blind75_3_MergeTwoSortedLinkedLists merger = new Blind75_3_MergeTwoSortedLinkedLists();
+		Blind75_03_MergeTwoSortedLinkedLists merger = new Blind75_03_MergeTwoSortedLinkedLists();
 
         // Example usage
         ListNode list1 = new ListNode(1);
