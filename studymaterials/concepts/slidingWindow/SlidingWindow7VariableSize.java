@@ -33,7 +33,7 @@ public class SlidingWindow7VariableSize {
 	}
 
 	private static int longestkSubstr1(String S) {
-		// code here
+		// code here "aabacbebebe"
 		int ans = 0;
 		int left = 0;
 

@@ -102,4 +102,3 @@ public class SlidingWindow5VariableSize_LargestWindow {
 	}
 }
 
-// This code is contributed by rachana soma

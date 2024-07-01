@@ -17,6 +17,7 @@ public class SlidingWindow1 {
 	}
 
 	private static int max_sum_of_subarray1(int[] arr, int n, int k) {
+
 		int i = 0;
 		int j = 0;
 		int sum = 0;
@@ -31,7 +32,7 @@ public class SlidingWindow1 {
 			sum = Math.max(sum, currentSum);
 		}
 		return sum;
-
+		
 	}
 
 	private static int max_sum_of_subarray(int[] arr, int n, int k) {
