@@ -2,6 +2,8 @@ package dataStructures.dataStructureAlgorithms.Arrays;
 
 import java.util.Arrays;
 
+// https://igotanoffer.com/blogs/tech/array-interview-questions
+
 // An array is a sequentially arranged, fixed-size collection of elements of the same data type in memory.
 // datatype can be primitive dt, objects, complex dt, etc.
 public class Array {

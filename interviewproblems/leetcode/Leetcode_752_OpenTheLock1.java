@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.*;
 
-public class Leetcode_752_OpenTheLock {
+public class Leetcode_752_OpenTheLock1 {
     public int openLock(String[] deadends, String target) {
 
         // Create a set to store the deadends to optimize the search process.
@@ -53,7 +53,7 @@ public class Leetcode_752_OpenTheLock {
     }
 
     public static void main(String[] args) {
-        Leetcode_752_OpenTheLock solution = new Leetcode_752_OpenTheLock();
+        Leetcode_752_OpenTheLock1 solution = new Leetcode_752_OpenTheLock1();
         String[] deadends = { "0201", "0101", "0102", "1212", "2002" };
         String target = "0202";
         int minTurns = solution.openLock(deadends, target);

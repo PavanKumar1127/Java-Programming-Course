@@ -39,6 +39,8 @@ public class LambdaExamples {
 
 		// Example 6: Lambda expression as an argument in a method
 		processOperation(15, 3, (a, b) -> a / b); // Division
+		
+		
 	}
 
 	// Method to perform an operation using the MathOperation functional interface
@@ -60,4 +62,7 @@ public class LambdaExamples {
 	private static void processOperation(int a, int b, MathOperation operation) {
 		System.out.println("Result: " + operate(a, b, operation));
 	}
+	
+
+
 }
