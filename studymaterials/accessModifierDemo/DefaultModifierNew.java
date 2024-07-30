@@ -9,7 +9,6 @@ public class DefaultModifierNew {
 	// default modifier 
 	public static void main(String args[])  
     {  
-        // Accessing class Geek from package p1  
 		DefaultModifier obj = new DefaultModifier();  
   
         obj.display();  
