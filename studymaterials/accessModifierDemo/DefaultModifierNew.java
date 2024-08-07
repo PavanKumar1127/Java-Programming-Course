@@ -9,8 +9,9 @@ public class DefaultModifierNew {
 	// default modifier 
 	public static void main(String args[])  
     {  
-		DefaultModifier obj = new DefaultModifier();  
+//		DefaultModifier obj = new DefaultModifier();  
   
-        obj.display();  
+ //       obj.display();  
 
+}
 }
