@@ -30,6 +30,27 @@ public class Leetcode_75_SortColors {
                 i++;
             }
         }
+        
+    }
+    public static void sortColors1(int[] nums) {
+        int zero = 0;
+        int two = nums.length-1;
+        int i =0;
+        while(i<nums.length){
+            if(nums[i]==0){
+                zero++;
+                i++;
+            }else if(nums[i] == 2){
+                int temp = nums[i];
+                nums[i] = nums[two];
+                nums[two] = temp;
+                two--;
+            }else{
+            	i++;
+                continue;
+            }
+            i++;
+        }
     }
 
     // Helper method to swap two elements in the array
@@ -43,7 +64,7 @@ public class Leetcode_75_SortColors {
         int[] arr = {2, 0, 2, 1, 1, 0};
         System.out.println("Original Array: " + Arrays.toString(arr));
         
-        sortColors(arr);
+        sortColors1(arr);
         
         System.out.println("Sorted Array: " + Arrays.toString(arr));
     }

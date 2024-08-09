@@ -30,7 +30,9 @@ public class CycleSort {
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 5, 2, 1, 4, 3 };
+	//	int[] arr = { 5, 2, 1, 4, 3 };
+		int[] arr = { 3 ,1 ,2 ,5 ,3 };
+		
 
 		// Print the original array
 		System.out.println("Original Array: " + Arrays.toString(arr));

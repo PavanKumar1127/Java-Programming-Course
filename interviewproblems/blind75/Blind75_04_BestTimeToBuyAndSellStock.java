@@ -8,7 +8,7 @@ public class Blind75_04_BestTimeToBuyAndSellStock {
 		int i = 0;
 		int j = 0;
 		int maxProfit = 0;
-
+//			7, 2, 5, 1, 6, 4
 		while (i < len && j < len) {
 			maxProfit = Math.max(maxProfit, prices[j] - prices[i]);
 			if (prices[j] >= prices[i]) {
